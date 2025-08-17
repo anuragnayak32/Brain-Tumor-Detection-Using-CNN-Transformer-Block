@@ -1,38 +1,42 @@
-# Brain-Tumor-Detection-Using-CNN-Transformer-Block
+# 🧠 Brain Tumor Detection Using CNN + Transformer
 
-📌 Overview
--> This project focuses on detecting brain tumors from MRI scans using a hybrid deep learning architecture that combines Convolutional Neural Networks (CNNs) and Transformer-based models. CNNs are used for feature extraction, while Transformers help capture long-range dependencies and contextual information in the images, improving classification accuracy.
+## 📌 Overview
+This project focuses on detecting brain tumors from MRI scans using a hybrid deep learning architecture that combines Convolutional Neural Networks (CNNs) and Transformer-based models.  
+CNNs are used for feature extraction, while Transformers help capture long-range dependencies and contextual information in the images, improving classification accuracy.
 
-🎯 Objective
--> To build an automated system that can accurately classify MRI brain images into tumor and non-tumor categories, aiding radiologists and healthcare professionals in early diagnosis and treatment planning.
+## 🎯 Objective
+To build an automated system that can accurately classify MRI brain images into tumor and non-tumor categories, aiding radiologists and healthcare professionals in early diagnosis and treatment planning.
 
-🗂️ Dataset
--> The dataset consists of brain MRI images categorized into tumor and non-tumor classes.
--> Images are preprocessed by resizing, normalizing pixel values, and applying data augmentation techniques like     rotation and fliping.
--> Dataset Source:- 
--> Number of images:- 10000
--> Classes:- Tumor, No-Tumor 
+## 🗂️ Dataset
+The dataset consists of brain MRI images categorized into tumor and non-tumor classes.  
+Images are preprocessed by resizing, normalizing pixel values, and applying data augmentation techniques like rotation and flipping.
 
-⚙️ Technologies Used
--> This project is built using Python programming language.
--> Deep learning frameworks used are TensorFlow or PyTorch.
--> Other libraries include OpenCV for image processing and NumPy, Pandas for data handling.
--> Matplotlib and Seaborn are used for visualizations.
+**Dataset Source**: (Add source link or name here)  
+**Number of Images**: 10,000  
+**Classes**: Tumor, No Tumor
 
-📊 Model Performance
-Accuracy: 99.46%
-Precision: 69.5%
-Recall: 80.0%
+## ⚙️ Technologies Used
+This project is built using the Python programming language.  
+Deep learning frameworks used are TensorFlow or PyTorch.  
+Other libraries include OpenCV for image processing and NumPy, Pandas for data handling.  
+Matplotlib and Seaborn are used for visualizations.
+
+## 📊 Model Performance
+
+**CNN + Transformer Model**  
+Accuracy: 99.46%  
+Precision: 69.5%  
+Recall: 80.0%  
 F1-Score: 74.8%
 
-Random Forest - Accuracy: 0.80
-Random Forest - Precision: 0.87
-Random Forest - Recall: 0.84
-Random Forest - F1-Score: 0.85
+**Random Forest**  
+Accuracy: 80%  
+Precision: 87%  
+Recall: 84%  
+F1-Score: 85%
 
-SVM - Accuracy: 0.85
-SVM - Precision: 0.85
-SVM - Recall: 0.95
-SVM - F1-Score: 0.90
-
-
+**Support Vector Machine (SVM)**  
+Accuracy: 85%  
+Precision: 85%  
+Recall: 95%  
+F1-Score: 90%
